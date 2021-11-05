@@ -1,7 +1,9 @@
    
 document.getElementById("etape4").style.display = "none"; 
 
-
+document.getElementById('etape4').addEventListener('submit',function(e){
+    e.preventDefault();
+})
 
 function bonjour() {    
     let saisie = document.getElementById("prenom").value;
@@ -15,7 +17,7 @@ function bonjour() {
     document.getElementById("etape4").style.display = "block"; 
     document.getElementById("changerTexte2").innerText="Merci "+ saisie + " et à bientôt!" ; 
     document.getElementById("accueil").style.display = "none";
-    bonjour.stopPropagation(); 
+    
     }
 }
 
@@ -27,14 +29,22 @@ function bonjour() {
         
         let saisie = document.getElementById("prenom").value;
         let adresse = document.getElementById("mail").value;
+
         
         { 
         console.log(adresse);               
-        alert(document.getElementById("message2").innerText="Merci "+ saisie +"," + "nous te confirmons que tu seras informé sur ton email :" + adresse);
-        
+        console.log(document.getElementById("message2").innerText="Merci "+ saisie +"," + "nous te confirmons que tu seras informé sur ton email :" + adresse);
+        document.getElementById("changerTexte2").style.display = "block";
+        document.getElementById("changerTexte").style.display = "none";
+        document.getElementById("demande").style.display = "none";
+        document.getElementById("mail").style.display = "none";
+        document.getElementById("confirmMail").style.display = "none";
+        document.getElementById("message").style.display = "none";
         }
     }
         document.getElementById("confirmMail").addEventListener("click", merci);
+
+
         
 
     
