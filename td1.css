@@ -1,11 +1,46 @@
+
+
+
 body {
     background: grey;
+    display:flex;
+    flex-direction: column;
+    align-items: center;  
+    vertical-align: middle;  
+
 }
 
-
-.etape1, etape2, etape3, etape4, etape5 {
-    font-size: center;
-
+.etape1 {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 70px;
 }
 
+input {
+    margin: 10px;
+    border-radius: 5px;
+    background-color: rgb(207, 207, 205);
+}
+
+button {
+    font-weight: bolder;
+    background-color: rgb(61, 61, 61);
+    color:white;
     
+}
+
+#changerTexte {
+    font-size: 24px;
+    font-weight: bolder;
+}
+
+#changerTexte2 {
+    font-size: 24px;
+     
+}
+
+#message {
+    
+    color: rgb(243, 184, 23);
+}
