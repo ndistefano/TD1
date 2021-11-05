@@ -33,7 +33,7 @@ function bonjour() {
         
         { 
         console.log(adresse);               
-        console.log(document.getElementById("message2").innerText="Merci "+ saisie +"," + "nous te confirmons que tu seras informé sur ton email :" + adresse);
+        console.log(document.getElementById("message2").innerText="Nous te confirmons que tu seras informé(e) sur ton email : " + adresse);
         document.getElementById("changerTexte2").style.display = "block";
         document.getElementById("changerTexte").style.display = "none";
         document.getElementById("demande").style.display = "none";
