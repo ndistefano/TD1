@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -15,34 +16,67 @@
         <div id="accueil">
             <label for="inputPrenom">Votre prénom:</label>
             <input type="text" id="prenom" name="prenom">
-            <button id="valider">valider</button> 
+            <button id="valider">valider</button>
         </div>
-        <div class="changerTexte"> 
-            <p id="changerTexte"></p>  
+        <div class="changerTexte">
+            <p id="changerTexte"></p>
         </div>
         <div class="changerTexte2">
-            <p id="changerTexte2"></p>  
-        </div> 
-    </div> 
+            <p id="changerTexte2"></p>
+        </div>
+    </div>
 
-    <div class="etape3">        
-        <p id="message" name="message"></p>         
-    </div> 
+    <div class="etape3">
+        <p id="message" name="message"></p>
+    </div>
 
-    
-    <form id="etape4" methode=GET action="">  
+
+    <form id="etape4" methode=GET action="">
         <label id="demande"></label>
         <input type="texte" id="mail" name="email">
         <button id="confirmMail">valider</button>
     </form>
 
-    <div class="etape5">        
-        <p id="message2" name="message2"></p>         
-    </div> 
+    <div class="etape5">
+        <p id="message2" name="message2"></p>
+    </div>
 
 
-<script src="td1.js"></script>
-<script src="td3.js"></script>
-    
+
+    <div id="popin">
+        <div id=traitement>
+            <div id=entete>
+                <h3>TRAITEMENT DES DONNEES PERSONNELLES</h3>
+                <button id="popin2">X</button>
+            </div>
+
+            <div class="donneesPerso">Contenu personnalisé
+                <button class="accept" id="a1">Accepter</button>
+                <button class="refus" id="r1">Refuser</button>
+            </div>
+            <div class="donneesPerso">Pulicité standard
+                <button class="accept" id="a2">Accepter</button>
+                <button class="refus" id="r2">Refuser</button>
+            </div>
+            <div class="donneesPerso">Mesure d'audience
+                <button class="accept" id="a3">Accepter</button>
+                <button class="refus" id="r3">Refuser</button>
+            </div>
+        </div>
+    </div>
+
+    <div id="cookies">
+        <p id="message3">Des cookies sont utilisés pour vous fournir notre service, le personnaliser, en mesurer
+            l'audience et améliorer votre expérience.</p>
+
+        <button id="acceptbutton">Accepter</button>
+        <button id="personalbutton">Personnaliser</button>
+    </div>
+
+
+    <script src="td1.js"></script>
+    <script src="td3.js"></script>
+
 </body>
+
 </html>
