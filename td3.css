@@ -26,7 +26,12 @@ input {
 button {
     font-weight: bolder;
     background-color: rgb(61, 61, 61);
+    border-color: 10px rgb(128, 125, 125);
     color:white;
+    border-radius: 5pt;
+    padding: 3pt;
+    padding-left: 7pt;
+    padding-right: 5pt;
     
 }
 
@@ -53,21 +58,21 @@ button {
     background: rgb(243, 184, 23);
     bottom: 0pt;
     position: absolute;
+    justify-content: center;
 }
 
 #message3 {
-    font-size: 7pt;
-    padding-left: 400px;
-    
+    font-size: 8pt;      
 }
 
 #acceptbutton, #personalbutton {
     background-color: rgb(221, 216, 216);
     border-radius: 5px;
     padding: 4px;
-    margin-left: 10px;
+    margin-left: 20px;
     color:black;
-    font-size: 7pt;
+    font-size: 8pt;
+    border-color:  rgb(243, 184, 23);
    
 }
 
@@ -87,21 +92,21 @@ h3 {
 }
 
 #popin2 {
-    width:3%;
-    height:28%;
-    padding: 0pt;
+    width:4%;
+    height:37%;
+    margin-left: 227pt;
     color:black;       
-    background-color: rgb(221, 216, 216);
-           
+    background-color: white;
+    border-color: white;           
     
 }
 
 #entete {
     display: flex;
-    align-items: center;
-    justify-content: space-around;
-   
+    align-items: center;     
     width: 100%;
+    justify-content:center;
+    
 }
 
 .accept, .refus {
@@ -109,8 +114,9 @@ h3 {
     color:black;
     margin-left: 20pt;
     margin-right: 20pt;
-    padding: 10pt;
+    padding: 8pt;
     border-radius: 5pt;
+    border: solid 0px rgb(114, 111, 111);
 }
 
 .donneesPerso {
@@ -119,7 +125,6 @@ h3 {
     display: flex;
     justify-content: end;
     margin: 2pt;
-
     height: 80px;
     align-items: center;
     width: 95%;
